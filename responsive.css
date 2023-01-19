@@ -1,0 +1,118 @@
+@media only screen and (max-width: 820px) {
+  .card-title {
+    font-size: 28px;
+    font-family: 'poppins';
+  }
+
+  .card .quotes-icon {
+    top: 168px;
+    right: 26px;
+  }
+
+  .footer-container .row .col-3 .deskripsi {
+    font-size: 10px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html,
+  body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .header .content-grup h1 {
+    margin-top: -66px;
+    line-height: 58px;
+    font-size: 42px;
+    font-family: poppins-semibold;
+    color: #212121;
+  }
+
+  .deskripsi,
+  p {
+    font-size: 12px;
+    line-height: 26px;
+  }
+
+  .btn-left {
+    text-decoration: none;
+    font-size: 12px !important;
+    padding: 12px 16px !important;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #836853;
+    transition: all 0.3s;
+    border-radius: 4px;
+  }
+
+  .btn-left:hover {
+    background-color: #fff;
+    color: #836853;
+  }
+
+  .btn-right {
+    text-decoration: none;
+    font-size: 12px !important;
+    color: #836853;
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+  }
+
+  .btn-right:hover {
+    text-decoration: underline !important;
+    color: #836853;
+  }
+
+  .judul-section {
+    font-family: 'lato-black';
+    font-size: 12px !important;
+    letter-spacing: 8px;
+    color: #836853;
+  }
+
+  .subjudul {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+
+  .fact-decs a {
+    font-size: 12px;
+    color: #836853;
+  }
+
+  .judul-card {
+    font-size: 16px !important;
+  }
+
+  .judul-form {
+    font-size: 16px !important;
+  }
+
+  select.form-select-type,
+  input::placeholder {
+    font-size: 18px !important;
+  }
+
+  select.form-select-type option {
+    font-size: 12px !important;
+  }
+
+  .card-title {
+    font-size: 16px;
+    font-family: 'poppins';
+  }
+
+  .card-body .deskripsi {
+    font-size: 8px;
+    line-height: 16px;
+  }
+
+  .card .quotes-icon {
+    top: 82px;
+    right: 12px;
+  }
+}
